@@ -1,5 +1,7 @@
 # esp32-mcp23017
 
+ARCHIVED, DO NOT USE
+
 ## Introduction
 This component provides an API to communicate with the MCP23017 module via the I2C protocol. It is written especially for the ESP32 IDF framework and will also work with the ADF framework since it does not reinstall the I2C drivers. It is thread-safe by requiring the user to pass a FreeRTOS semaphore mutex.
 
